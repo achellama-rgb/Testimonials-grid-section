@@ -1,0 +1,125 @@
+body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(260, 100%, 95%);
+    min-height: 100vh;
+    margin: 200px;
+}
+
+.container {
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+}
+.user-img {
+    display: inline-block;
+}
+.author-info {
+    vertical-align: top;
+    margin-top: 6px;
+    display: inline-block;
+}
+.author-picture {
+    margin: 5px;
+    padding: 1px;
+    height: 36px;
+    border-radius: 25px;
+    border-color: rgba(206, 204, 204, 0.423);
+    border-style: solid;
+}
+.author-name,
+.author-state {
+    margin-left: 5px;
+    font-family: Inter;
+    font-size: 14px;
+    line-height: 20px;
+    color: white;
+}
+.title-sub{
+    margin: 3px;
+    margin-left: 7px;
+    font-family: Inter;
+    font-weight: 500;
+    color: white;
+    font-size: 20px;
+}
+.sub {
+    margin: 15px 10px;
+    font-family: Inter;
+    font-weight: 200;
+    color: white;
+    font-size: 13px;
+}
+.sub-3-4 {
+    margin: 15px 7px;
+    font-family: Inter;
+    font-weight: 200;
+    color: hsl(219, 29%, 14%);
+    font-size: 13px;
+}
+.author-name-3-4,
+.author-state-3-4 {
+    margin-left: 5px;
+    font-family: Inter;
+    font-size: 14px;
+    line-height: 20px;
+    color: hsl(219, 29%, 14%);
+}
+.title-sub-3-4 {
+    margin: 0;
+    margin-left: 7px;
+    font-family: Inter;
+    font-weight: 500;
+    color: hsl(219, 29%, 14%);
+    font-size: 20px;
+}
+.left-side {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.left-top-side {
+    display: grid;
+    grid-template-columns: 1fr 270px;
+    gap: 25px;
+}
+.left-bottom-side {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    gap: 25px;
+
+}
+.par-1 {
+    box-shadow: 60px 60px 100px rgba(0, 0, 0, 0.20);
+    border-radius: 10px;
+    padding: 20px;
+    background-color: hsl(263, 55%, 52%);
+}
+.par-2 {
+    box-shadow: 60px 60px 100px rgba(0, 0, 0, 0.20);
+    border-radius: 10px;
+    padding: 20px;
+    background-color: hsl(217, 19%, 35%);
+}
+.par-4 {
+    box-shadow: 60px 60px 100px rgba(0, 0, 0, 0.20);
+    border-radius: 10px;
+    padding: 20px;
+    background-color: hsl(0, 0%, 100%);
+}
+.par-5 {
+    box-shadow: 60px 60px 100px rgba(0, 0, 0, 0.20);
+    border-radius: 10px;
+    padding: 20px;
+    background-color: hsl(219, 29%, 14%);
+}
+.par-3 {
+    box-shadow: 60px 60px 100px rgba(0, 0, 0, 0.20);
+    margin-left: 25px;
+    border-radius: 10px;
+    padding: 20px;
+    width: 688px;
+    background-color: hsl(0, 0%, 100%);
+}
